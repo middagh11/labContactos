@@ -11,5 +11,7 @@ namespace contacto.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<contacto.Models.Contact> Contacts { get; set; }
     }
 }
